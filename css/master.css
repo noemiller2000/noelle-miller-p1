@@ -1,0 +1,121 @@
+/* Element Rules */
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-image: url("../images/background.png");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;}
+
+td, th {
+  text-align: center;
+  border: 2px solid Black;
+  padding: 10px 10px 10px 10px;}
+
+h1, h2 {
+  font-family: "Lilita One", cursive;}
+
+h1 {
+  color: white;
+  /* Gives the heading a black outline */
+  text-shadow:
+  		-1px -1px 0 #000,
+  		1px -1px 0 #000,
+  		-1px 1px 0 #000,
+  		1px 1px 0 #000;}
+
+img {
+  vertical-align: middle;
+  padding-right: 10px
+}
+
+/* Class Rules */
+.userInput {
+  font-family: "Caveat Brush", cursive;
+  font-size: 1.1em;}
+
+.standardBox {
+  background-color: rgba(200,197,197,0.75);
+  border: 2px solid Black;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;}
+
+.show {
+  visibility: visible;
+  background-color: rgba(200,197,197,0.75);
+  border: 2px solid Black;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;}
+
+/* Makes background and border invisible as well */
+.hide {
+  visibility: hidden;
+  background-color: rgba(200,197,197,0.0);
+  border: none;
+  padding: 0px 0px 0px 0px;}
+
+/* Id Rules */
+#wordTable {
+  background-color: rgba(200,197,197,0.75);
+  width: 600px;
+  border-collapse: collapse;
+  margin: 0 auto;}
+
+#linkToTop {
+  width: 150px;
+  text-align: center;}
+
+#generateButton {
+  font-size: 1.2em;
+  width: 120px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;}
+
+#madLib {
+  font-family: "Caveat Brush", cursive;
+  font-size: 1.2em}
+
+#story {
+  width: 800px;
+  margin: 0 auto;}
+
+#important {
+  text-align: center;
+  font-weight: bold;
+  width: 1200px;
+  color: DarkRed;
+  margin: 0 auto;}
+
+#note {
+  color: DarkRed;}
+
+#logo {
+  width: 100px;
+  height: 100px;}
+
+/* Alter how LINKS look */
+a:link {
+  color: #1D3C7C;
+  text-decoration: none;}
+
+a:visited {
+  color: #731D7C;}
+
+a:hover {
+  color: #144F1B;
+  text-decoration: underline;}
+
+a:active {
+  color: #247C88;}
+
+/* Alter how BUTTONS look */
+button {
+  background-color: #EFEFEF;}
+
+button:hover {
+  background-color: #FBFBFB;}
+
+button:active {
+  background-color: #BCBCBC;}
